@@ -1,6 +1,6 @@
 #!/bin/bash
     
-    if[! -f "certbot" ]
+    if[! -f "certbot" ]; then
     echo "You do not have certbot installed! Install it from somewhere...google it!"
 
     else
